@@ -16,7 +16,7 @@ public class DragAndDropTest {
         open("https://the-internet.herokuapp.com/drag_and_drop");
         $("#content").shouldHave(Condition.text("Drag and Drop"));
 
-        // Проверим, что прямоугольники действительно на находятся на своих местах
+        // Проверим, что прямоугольники действительно находятся на своих местах
         $("#column-a").shouldHave(Condition.text("A"));
         $("#column-b").shouldHave(Condition.text("B"));
 
